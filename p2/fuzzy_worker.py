@@ -280,6 +280,5 @@ class FuzzyResponse(object):
     def close(self):
         return self.response.close()
 
-    @property
     def headers_sent(self):
         return self.response.headers_sent
